@@ -1,10 +1,12 @@
 .container{
     margin: 50px 0 !important;
-    width: 70vw;
+    width: 85%;
+    
 }
 
 .card{
     margin: 0 2% !important;
+    padding:3px 5px !important;
 }
 
 .deaths{
@@ -17,4 +19,10 @@
 
 .infected{
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+@media only screen and (max-width: 770px) {
+    .card{
+        margin: 2% 0 !important;
+    }
 }
